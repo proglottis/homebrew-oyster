@@ -17,8 +17,6 @@ class Oyster < Formula
     system "go", "install", "github.com/proglottis/oyster/cmd/oyster", "github.com/proglottis/oyster/cmd/oyster_chrome"
 
     bash_completion.install "cmd/oyster/oyster_bash_completion.sh"
-    opt_prefix.install "cmd/oyster_chrome/"
-
     chrome_native_messaging_path.atomic_write(chrome_native_messaging)
     chrome_native_messaging_path.chmod 0644
   end
