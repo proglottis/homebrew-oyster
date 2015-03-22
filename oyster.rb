@@ -2,8 +2,8 @@ require "formula"
 
 class Oyster < Formula
   homepage "https://github.com/proglottis/oyster"
-  url "https://github.com/proglottis/oyster/archive/v0.2.0.zip"
-  sha256 "ad1c642ce2401ebb6efe8a6653615e2190c227b7ebb68d10207eccc4ae35ce75"
+  url "https://github.com/proglottis/oyster/archive/v0.2.1.zip"
+  sha256 "b1693ade7adfe00fc9f36673e5291fa79a77b0c239db18e7ab33f843a3b7128d"
 
   depends_on "go" => :build
 
